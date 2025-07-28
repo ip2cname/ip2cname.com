@@ -1,0 +1,10 @@
+[domain]
+"$(repo_owner).ip2cname.com" = [
+  { type = "A",     value = "192.0.2.1",     ttl = 300 },
+  { type = "AAAA",  value = "2001:db8::1",   ttl = 300 },
+  { type = "NS",    value = "nsgithub.ip2cname.com", ttl = 600 }
+]
+
+"cdn.$(repo_owner).ip2cname.com" = [
+  { type = "A", value = "192.0.2.88", ttl = 300 }
+]
